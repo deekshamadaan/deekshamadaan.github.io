@@ -18,6 +18,7 @@ ul {
 ul li {
     background-image: url('/images/hammer8.svg') !important;
     background-repeat: no-repeat;
+    width:10px !important;
     background-position: 0px center;
     padding-left: 15px;
 }
