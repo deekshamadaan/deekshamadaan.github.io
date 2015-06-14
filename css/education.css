@@ -7,8 +7,11 @@
 
 ul {
     list-style-image: url('/images/hammer8.svg') !important;
+<<<<<<< HEAD
     width:10px;
     
+=======
+>>>>>>> cf7359f73c6d3f3282f54fd3a75561eb052b18dc
 }
 
 ul li {
