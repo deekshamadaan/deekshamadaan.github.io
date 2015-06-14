@@ -6,11 +6,13 @@
 }
 
 ul {
-    list-style-image: url('/users/Abhishek/Desktop/pagal/images/hammer8.svg') !important;
+    list-style-image: url('/images/hammer8.svg') !important;
+    width:10px;
+    
 }
 
 ul li {
-    background-image: url('/users/Abhishek/Desktop/pagal/images/hammer8.svg/images/hammer8.svg') !important;
+    background-image: url('/images/hammer8.svg') !important;
     background-repeat: no-repeat;
     background-position: 0px center;
     padding-left: 15px;
