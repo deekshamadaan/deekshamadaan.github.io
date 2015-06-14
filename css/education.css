@@ -1,0 +1,17 @@
+#education {
+    width: 100% !important;
+    background: #f44336;
+    color: white;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-image: url('/users/Abhishek/Desktop/pagal/images/hammer8.svg') !important;
+}
+
+ul li {
+    background-image: url('/users/Abhishek/Desktop/pagal/images/hammer8.svg/images/hammer8.svg') !important;
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    padding-left: 15px;
+}

@@ -1,0 +1,17 @@
+#readinglist {
+    width: 100% !important;
+    background: #0288d1;
+    color: white;
+    font-size: 1em;
+}
+
+.collection,
+.collection-item{
+
+	  line-height: 1.3rem !important;
+}
+
+.title{
+color:white;
+font-weight: 700 !important;
+}
