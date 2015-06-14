@@ -1,0 +1,22 @@
+#designed {
+    width: 100% !important;
+    background: #ef5350;
+    color: white !important;
+    font-size: 1.5em;
+}
+
+p {
+    color: white !important;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+}
+
+#centeralign {
+    color: white !important;
+    margin: 0  !important;
+    padding: 0 auto !important;
+    width: 100% !important;
+    vertical-align: center !important;
+    text-align: center !important;
+}

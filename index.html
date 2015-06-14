@@ -78,6 +78,7 @@
     <link rel="stylesheet" href="css/whatido.css">
     <link rel="stylesheet" href="css/social.css">
     <link rel="stylesheet" href="css/readinglist.css">
+    <link rel="stylesheet" href="css/designed.css">
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -180,7 +181,7 @@
                         </div>
                         <div class="card-action">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a class="waves-effect indigo lighten btn whatido"  data-target="contactform" href="#">Book Me</a>
+                            <a class="waves-effect indigo lighten btn whatido" data-target="contactform" href="#">Book Me</a>
                         </div>
                     </div>
                 </div>
@@ -238,7 +239,9 @@
                 </div>
             </div>
         </div>
-    </div><br><br>
+    </div>
+    <br>
+    <br>
     <!--Social-->
     <div id="social">
         <br>
@@ -296,7 +299,6 @@
                                         <span class="rrssb-text">twitter</span>
                                     </a>
                                 </li>
-                               
                                 <li class="rrssb-googleplus">
                                     <!-- Replace href with your meta and URL information.  -->
                                     <a href="" class="popup">
@@ -322,48 +324,50 @@
                                     </a>
                                 </li>
                                 <li class="rrssb-instagram">
-          <a href="">
-            <span class="rrssb-icon">
+                                    <a href="">
+                                        <span class="rrssb-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><path d="M4.066.636h19.867c1.887 0 3.43 1.543 3.43 3.43v19.868c0 1.888-1.543 3.43-3.43 3.43H4.066c-1.887 0-3.43-1.542-3.43-3.43V4.066c0-1.887 1.544-3.43 3.43-3.43zm16.04 2.97c-.66 0-1.203.54-1.203 1.202v2.88c0 .662.542 1.203 1.204 1.203h3.02c.663 0 1.204-.54 1.204-1.202v-2.88c0-.662-.54-1.203-1.202-1.203h-3.02zm4.238 8.333H21.99c.224.726.344 1.495.344 2.292 0 4.446-3.72 8.05-8.308 8.05s-8.31-3.604-8.31-8.05c0-.797.122-1.566.344-2.293H3.606v11.29c0 .584.48 1.06 1.062 1.06H23.28c.585 0 1.062-.477 1.062-1.06V11.94h.002zm-10.32-3.2c-2.963 0-5.367 2.33-5.367 5.202 0 2.873 2.404 5.202 5.368 5.202 2.965 0 5.368-2.33 5.368-5.202s-2.403-5.2-5.368-5.2z"/></svg>
             </span>
-            <span class="rrssb-text">Instagram</span>
-          </a>
-        </li>
-
-
-                              </ul>
+                                        <span class="rrssb-text">Instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
                             <!-- Buttons end here -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div><br><br>
-
+    </div>
+    <br>
+    <br>
     <!--ContactForm-->
     <div id="contactform">
-    <!-- The above form looks like this -->
-<form>
-  <div class="row">
-    <div class="six columns">
-      <label for="exampleEmailInput">Your email</label>
-      <input class="u-full-width" type="email" placeholder="name@domain.com" id="exampleEmailInput">
+        <!-- The above form looks like this -->
+        <form>
+            <div class="row">
+                <div class="six columns">
+                    <label for="exampleEmailInput">Your email</label>
+                    <input class="u-full-width" type="email" placeholder="name@domain.com" id="exampleEmailInput">
+                </div>
+                <div class="six columns">
+                </div>
+            </div>
+            <label for="exampleMessage">Message</label>
+            <textarea class="u-full-width" placeholder="Hey Deeksha.." id="exampleMessage"></textarea>
+            </label>
+            <br>
+            <br>
+            <input class="button-primary" type="submit" value="Submit">
+        </form>
     </div>
-    <div class="six columns">
-     
+    <!--createdby-->
+    <div id="designed"><br><br>
+    <div id="centeralign"><p>Designed with ♥ by Abhishek</p></div>
+        <br><br>
     </div>
-  </div>
-  <label for="exampleMessage">Message</label>
-  <textarea class="u-full-width" placeholder="Hey Deeksha.." id="exampleMessage"></textarea>
-
-  </label><br><br>
-  <input class="button-primary" type="submit" value="Submit">
-</form>
-</div>
-
-<!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
-
-<!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+    <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+    <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
     <!--Scripts-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
@@ -378,10 +382,7 @@
             scrollTop: $(target).offset().top
         }, 2000);
     });
-
     </script>
-
-
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
